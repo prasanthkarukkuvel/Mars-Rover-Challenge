@@ -33,7 +33,15 @@ namespace MARSRover.Models
         /// </value>
         private List<IRover> Rovers { get; set; }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Mars" /> class.
+        /// </summary>
         public Mars() { }
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Mars" /> class.
+        /// </summary>
+        /// <param name="Width">The width.</param>
+        /// <param name="Height">The height.</param>
         public Mars(int Width, int Height)
         {
             this.Width = Width;
