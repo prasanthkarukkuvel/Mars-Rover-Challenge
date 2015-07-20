@@ -17,7 +17,7 @@ namespace MARSRover.Models
         /// <value>
         /// The direction.
         /// </value>
-        public Direction Direction { get; set; }
+        private Direction Direction { get; set; }
         /// <summary>
         /// Gets or sets the position.
         /// </summary>

@@ -12,13 +12,6 @@ namespace MARSRover
     public interface IRover
     {
         /// <summary>
-        /// Gets or sets the direction.
-        /// </summary>
-        /// <value>
-        /// The direction.
-        /// </value>
-        Direction Direction { get; set; }
-        /// <summary>
         /// Gets or sets the position.
         /// </summary>
         /// <value>
