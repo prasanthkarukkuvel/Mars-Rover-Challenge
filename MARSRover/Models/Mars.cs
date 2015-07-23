@@ -66,7 +66,7 @@ namespace MARSRover.Models
         /// <returns></returns>
         private IRover GetRover(int X, int Y)
         {
-            return Rovers.Where(Rover.Position.X == X && Rover.Position.Y == Y).FirstOrDefault();
+            return Rovers.Where(x => x.Position.X == X && x.Position.Y == Y).FirstOrDefault();
         }
 
         /// <summary>
